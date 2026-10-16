@@ -21,6 +21,7 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#stack">Tech Stack</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
           <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -47,9 +48,9 @@
       <h2 class="h3 border-bottom pb-2 mb-3">About Me</h2>
       <div class="card p-4 shadow-sm border-0">
         <p class="mb-0 fs-5">
-          I am a Computer Engineering student at <strong>Politecnico di Torino</strong>.
-          I am currently looking for a curricular internship with a focus on web development, but I am interested in learning game development and mobile development too.
-          Outside of academics I enjoy reading, watching anime, playing videogames and crocheting.
+          I am a Computer Engineering student at <strong>Politecnico di Torino</strong>.<br />
+          I am currently looking for a <strong>curricular internship with a focus on web development</strong>, but I am interested in learning game development and mobile development too.<br />
+          Outside of academics I enjoy reading, watching anime, playing videogames and crocheting.<br />
           I love exploring new things like 3D modeling in Blender and 2D animation, and I'm always looking for fresh challenges to tackle.
         </p>
       </div>
@@ -63,11 +64,11 @@
           <div class="card h-100 p-4 shadow-sm border-0">
             <h3 class="h5 fw-bold mb-3">Languages</h3>
             <div class="d-flex flex-wrap gap-2">
-              <span class="badge bg-secondary">Python</span>
-              <span class="badge bg-secondary">Java</span>
-              <span class="badge bg-secondary">C</span>
-              <span class="badge bg-secondary">HTML5 / CSS3</span>
-              <span class="badge bg-secondary">SQL</span>
+              <span class="badge bg-secondary fs-6">Python</span>
+              <span class="badge bg-secondary fs-6">Java</span>
+              <span class="badge bg-secondary fs-6">C</span>
+              <span class="badge bg-secondary fs-6">HTML5 / CSS3</span>
+              <span class="badge bg-secondary fs-6">SQL</span>
             </div>
           </div>
         </div>
@@ -76,9 +77,9 @@
           <div class="card h-100 p-4 shadow-sm border-0">
             <h3 class="h5 fw-bold mb-3">Web & Mobile</h3>
             <div class="d-flex flex-wrap gap-2">
-              <span class="badge bg-secondary">Web Applications</span>
-              <span class="badge bg-secondary">Responsive Web Design</span>
-              <span class="badge bg-secondary">REST Principles</span>
+              <span class="badge bg-secondary fs-6">Web Applications</span>
+              <span class="badge bg-secondary fs-6">Responsive Web Design</span>
+              <span class="badge bg-secondary fs-6">REST Principles</span>
             </div>
           </div>
         </div>
@@ -87,11 +88,77 @@
           <div class="card h-100 p-4 shadow-sm border-0">
             <h3 class="h5 fw-bold mb-3">Tools & Multimedia</h3>
             <div class="d-flex flex-wrap gap-2">
-              <span class="badge bg-secondary">Git & GitHub</span>
-              <span class="badge bg-secondary">Visual Studio Code</span>
-              <span class="badge bg-secondary">Linux / Windows</span>
-              <span class="badge bg-secondary">Blender (3D)</span>
-              <span class="badge bg-secondary">Canva</span>
+              <span class="badge bg-secondary fs-6">Git & GitHub</span>
+              <span class="badge bg-secondary fs-6">Visual Studio Code</span>
+              <span class="badge bg-secondary fs-6">Linux / Windows</span>
+              <span class="badge bg-secondary fs-6">Blender (3D)</span>
+              <span class="badge bg-secondary fs-6">Canva</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="projects" class="mb-5">
+      <h2 class="h3 border-bottom pb-2 mb-4">Projects</h2>
+      <div class="row g-4">
+
+        <div class="col-md-6">
+          <div class="card h-100 p-4 shadow-sm border-0 d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h3 class="h5 fw-bold mb-0">Rinascita Tours</h3>
+                <span class="badge bg-primary fs-6">Web App</span>
+              </div>
+              <p class="text-muted small mb-3">Full-stack web application developed as part of the Introduction to Web Applications course.</p>
+              <p class="mb-3">
+                A web application built using Python, Flask and SQLite on the backend with dynamic HTML, CSS and JavaScript on the frontend. Features RESTful API routing, user authentication and persistent database storage.
+              </p>
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <span class="badge bg-secondary fs-6">Python</span>
+                <span class="badge bg-secondary fs-6">Flask</span>
+                <span class="badge bg-secondary fs-6">SQLite</span>
+                <span class="badge bg-secondary fs-6">JavaScript</span>
+                <span class="badge bg-secondary fs-6">HTML5 / CSS3</span>
+              </div>
+            </div>
+            <div>
+              <a href="https://dsdesi.eu.pythonanywhere.com/" target="_blank" class="btn btn-outline-dark bg-info">
+                View Demo &rarr;
+              </a>
+              <a href="https://github.com/w1ng50ffr33d0m/IWA_ExamProject" target="_blank" class="btn btn-outline-dark">
+                View on GitHub &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6">
+          <div class="card h-100 p-4 shadow-sm border-0 d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h3 class="h5 fw-bold mb-0">Lo-fi Audio Mixer</h3>
+                <span class="badge bg-primary fs-6">Angular</span>
+              </div>
+              <p class="text-muted small mb-3">Interactive audio mixer for creating different blends of lo-fi sounds.</p>
+              <p class="mb-3">
+                A single-page web app built with Angular featuring independent audio channel control, volume sliders and seamless track looping using Web Audio APIs.
+              </p>
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <span class="badge bg-secondary fs-6">Angular</span>
+                <span class="badge bg-secondary fs-6">TypeScript</span>
+                <span class="badge bg-secondary fs-6">Web Audio API</span>
+                <span class="badge bg-secondary fs-6">HTML5 / CSS3</span>
+              </div>
+            </div>
+            <div>
+              <a href="https://lofi-studio-lilac.vercel.app/" target="_blank" class="btn btn-outline-dark bg-info">
+                View Demo &rarr;
+              </a>
+              <a href="https://github.com/w1ng50ffr33d0m/lofi-studio" target="_blank" class="btn btn-outline-dark">
+                View on GitHub &rarr;
+              </a>
             </div>
           </div>
         </div>
